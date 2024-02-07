@@ -41,7 +41,7 @@
 
 
 
- Install [External Plugins](https://github.com/SamPandey001/Secktor-Plugins)
+ 
    Install plugins[`install plugins`](https://github.com/Xcelsama/STAR-MD-Plugins)
 
 ## Deployment Methods
