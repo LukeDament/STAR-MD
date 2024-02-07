@@ -93,7 +93,8 @@ Now Deploy
 
 Now Deploy
     <br>
-<a href='https://replit.com/@HopeAmadi/EXCEL-MD-V2' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=Replit' width="96.35" height="28"/></a></p>'
+<a href="https://replit.com/@HopeAmadi/STAR-MD?s=app" target="_blank"><img alt="DEPLOY" src="https://img.shields.io/badge/DEPLOY-black?color=black&style=for-the-badge&logo=Replit" width="96.35" height="28"></a>
+```
 ❍ᗪᗴᑭᒪOY Oᑎ ᕼᗴᖇOKᑌ
 If You don't have a account in Heroku. Create a account.
     <br>
