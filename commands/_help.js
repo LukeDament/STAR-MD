@@ -65,7 +65,8 @@ Secktor.cmd({
 │ │ Uptime:- ${runtime(process.uptime())}
 │ │ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 │ │ Time:- ${time}
-│ │ Date:- ${date}
+│ │ Date:- ${date}                                
+│ │ Developer:- Excel Amadi
 │ ╰──────────────◆
 ╰───────────────⊷\n
 ` + '```'
@@ -82,7 +83,7 @@ Secktor.cmd({
                    }
   
                 }
-                str+= `*⭐️Type:* _${prefix}help cmd_ name to know more about specific command.\n*Eg:* _${prefix}help attp_\n*Made with ❤️ in Nodejs* `
+                str+= `*⭐️Type:* _${prefix}help cmd_ name to know more about specific command.\n*Eg:* _${prefix}help attp_\n*Made by Excel Amadi* `
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str
