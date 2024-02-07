@@ -116,13 +116,14 @@ cmd({
     async(Void, citel) => {
         let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
         let cap = `Hey ${citel.pushName}\n
-*⭐ Total Stars:* ${data.stargazers_count} stars
-*🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* citel-x.herokuapp.com/repo
-*Group:* citel-x.herokuapp.com/support
-*Deploy Your Own:*-
-citel-x.herokuapp.com`
-        let buttonMessaged = {
+╭┈─────────────────────    .· * • ˚
+│*⭐ Total Stars:* ${data.stargazers_count} stars
+│*🍴 Forks:* ${data.forks_count} forks
+│*📡 Repo:* https://github.com/Xcelsama/STAR-MD
+│*👑Group:* 
+│*🧑‍💻Deploy IZUKU MD*:https://github.com/excelottah6/IZUKU-MD
+╰──────────────────────✬      * ˚  ✶`
+buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
             footer: tlang().footer,
