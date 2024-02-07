@@ -50,7 +50,7 @@ mongodb://usrdhz7ejxwayzvw69qm:fRuJImqP1BOZyGk9fD6@bupt7kruqljyivftjl4i-mongodb.
 - *I will Recommend You To Use Your own MongoDB Key So That You Will Not Face any Issue.*
 ##
 
-  ＊SET UP FOR EXCEL-MD-V2
+  ＊SET UP FOR STAR-MD
 
     
 ➤FORK THE REPOSITORY (Repo) 
@@ -58,7 +58,7 @@ mongodb://usrdhz7ejxwayzvw69qm:fRuJImqP1BOZyGk9fD6@bupt7kruqljyivftjl4i-mongodb.
 <a href="https://github.com/Xcelsama/EXCEL-MDX/fork"><img title="XCELL-MD" src="https://img.shields.io/badge/FORK EXCEL-MDX?color=black&style=for-the-badge&logo=stackshare"></a>
 
 
-➤  GET SESSION  ID FOR EXCEL-MDX
+➤  GET SESSION  ID FOR  ⭐STAR-MD⭐
   
     pair May not work...under development 
 <a href='https://replit.com/@HopeAmadi/Excel-mdxpaircode' target="_blank"><img alt='Pair code' src='https://img.shields.io/badge/Pair-code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
