@@ -109,12 +109,7 @@ If You don't have a account in Heroku. Create a account.
 <h1 align="center"> ⭐STAR-MD ⭐
 </p>
 
-<img src="https://i.imgur.com/FX2S9eI.jpg" alt="Image">
-
-
-
-
-
-            Excel ©2024
+<img src="https://i.imgur.com/FX2S9eI.jpg" alt="Image"> 
+Excel ©2024
 
 
