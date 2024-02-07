@@ -1,18 +1,20 @@
 {
-  "name": "Secktor-Md",
-  "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://camo.githubusercontent.com/14279dac3151a95fca8ec5bebda435d68d62c49f6aa4f30749f541ee985ad21b/68747470733a2f2f7365636b746f7275736572626f742e6f6e72656e6465722e636f6d2f6d61696e2e6a7067",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device","baileys","Sam Pandey"],
+  "name": "STAR-MD",
+  "description": "A Mulitdevice whatsapp bot built in Excel to make whatsapp more fun",
+  "logo": "https://i.imgur.com/D0ZPh8f.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "STAR-BOT", "Secktor","SecktorMD","theme bot","multi device","baileys","EXCEL"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "Eren Yeager"
+      "value": "EXCEL"
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
      "required" :false
+     " value":"Hey hey! 🌟 Guess who's here to help you? 🎉 Yep, it's your trusty bot pal!STAR-MD 🤖💬 I'm all about diving into interesting topics, 💡 sharing cool stuff, 🚀 and just having a blast together! 💥 So, whether you need a laugh, 😂 a fact check, 📚 or just someone to talk to, 🗣️ I've got your back! Let's make this chat a memorable one! 😄🎉 What's on your mind today? 🤔 Let's get into it! 💬🚀✨
+<prefix>menu to get started"
     },
     "AUTO_STATUS_SAVER": {
       "description": "Automatically saves status of every person and sends in log number.",
@@ -28,7 +30,7 @@
     },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://camo.githubusercontent.com/14279dac3151a95fca8ec5bebda435d68d62c49f6aa4f30749f541ee985ad21b/68747470733a2f2f7365636b746f7275736572626f742e6f6e72656e6465722e636f6d2f6d61696e2e6a7067"
+     "value": "https://i.imgur.com/D0ZPh8f.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -47,7 +49,7 @@
   "LEVEL_UP_MESSAGE": {
     "description": "Fill the value true if you want bot send Level up message in chat.",
      "required" :false,
-     "value": "true"
+     "value": "false"
     },
       "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages.",
@@ -60,14 +62,15 @@
     },
       "PREFIX": {
   "description": "Enter your desired prefix for bot.",
-      "value": "."
+      "value": "*"
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "919628516236"
+       "value": "2347045035241"
   },
    "SESSION_ID": {
-    "description": "Please put your SESSION_ID here,if you don't have visit https://secktorbot.herokuapp.com/session "
+    "description": "Please put your SESSION_ID here,if you don't have visit 
+<a href='https://replit.com/@HopeAmadi/EXCEL-MD-QR-1"
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
@@ -76,11 +79,11 @@
   },
   "MONGODB_URI": {
     "description": "A secret String for Mongodb Connection.(Required),change for better experience",
-    "value": "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"
+    "value": "mongodb+srv://astromedia0010:beka10beka10@cluster0.pxc8ulo.mongodb.net/"
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "SECKTOR"
+     "value": "GOKU"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
@@ -93,7 +96,7 @@
   },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
-     "value": "SamPandey001;Secktor",
+     "value": "Excel;STAR",
      "required": false 
   },
   "heroku": {
