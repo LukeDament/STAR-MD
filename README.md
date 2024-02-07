@@ -55,7 +55,7 @@ mongodb://usrdhz7ejxwayzvw69qm:fRuJImqP1BOZyGk9fD6@bupt7kruqljyivftjl4i-mongodb.
     
 ➤FORK THE REPOSITORY (Repo) 
     <br>
-<a href="https://github.com/Xcelsama/EXCEL-MDX/fork"><img title="XCELL-MD" src="https://img.shields.io/badge/FORK EXCEL-MDX?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/Xcelsama/STAR-MD/fork"><img title="STAR" src="https://img.shields.io/badge/FORK STAR-MD?color=black&style=for-the-badge&logo=stackshare"></a>
 
 
 ➤  GET SESSION  ID FOR  ⭐STAR-MD⭐
