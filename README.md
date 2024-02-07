@@ -42,7 +42,7 @@
 
 
  
-   Install plugins[`install plugins`](https://github.com/Xcelsama/STAR-MD-Plugins)
+  [`install plugins`](https://github.com/Xcelsama/STAR-MD-Plugins)
 
 ## Deployment Methods
 **If You Don't Have Any MongoDB Url Then, Use This Public one.!**
