@@ -87,7 +87,7 @@ Now Deploy
 
 ❍ᗪᗴᑭᒪOY ᗯITᕼ ᖇᗴᑭᒪIT
 
-- If You don't have a account in replit. Create a account.
+If You don't have a account in replit. Create a account.
     <br>
 <a href='https://replit.com/signup' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=Replit' width="96.35" height="28"/></a></p>
 
