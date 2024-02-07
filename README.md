@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://wa.me/2347045035241">
-    <img alt="STAR-MD" height="300" src=https://i.imgur.com/4FCvXn0.jpg">
+    <img alt="STAR-MD" height="300" src=https://i.imgur.com/D0ZPh8f.jpg">
   </a>
 <h1 align="center"> ⭐STAR-MD ⭐
 </p>
