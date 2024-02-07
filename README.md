@@ -21,7 +21,7 @@
    
  
 <p align="center">
-<a href='https://chat.whatsapp.com/EjCevQuz0IBIlfUUYLPEB4' 
+<a href='https://chat.whatsapp.com/LrNEhg5ggcp11k091pNX7r' 
   <a aria-label="Join our chats" href="https://chat.whatsapp.com/LrNEhg5ggcp11k091pNX7r" target="_blank">
 
    <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
