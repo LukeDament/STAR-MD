@@ -10,8 +10,8 @@
 
 <p align="center">
   <a href="https://chat.whatsapp.com/ERYl3BYeDgj0xlZUssQI9p">
-    <img alt="Excel-MD V2" height="300" src=https://i.imgur.com/faNAZch.png">
-  </a>">
+    <img alt="Excel-MD V2" height="300" src=https://i.imgur.com/hTKgJeY.jpg">
+  </a>
 
 </p>
       <p align="center">
