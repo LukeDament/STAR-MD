@@ -115,7 +115,6 @@ If You don't have a account in Heroku. Create a account.
 
 
 
-
-~Excel ©2024
+            Excel ©2024
 
 
