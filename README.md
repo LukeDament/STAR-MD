@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <a href="https://chat.whatsapp.com/ERYl3BYeDgj0xlZUssQI9p">
+  <a href="https://wa.me/2347045035241">
     <img alt="STAR-MD" height="300" src=https://i.imgur.com/eKdk4Sg.jpg">
   </a>
 
