@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://chat.whatsapp.com/ERYl3BYeDgj0xlZUssQI9p">
-    <img alt="Excel-MD V2" height="300" src=https://i.imgur.com/hTKgJeY.jpg">
+    <img alt="STAR-MD" height="300" src=https://i.imgur.com/hTKgJeY.jpg">
   </a>
 
 </p>
@@ -16,7 +16,7 @@
   <a href="https://wa.me//+2347045035241" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
-  <a aria-label="Excel_Md is free to use" href="https://chat.whatsapp.com/Lg0lY4M1k8oDMYzylg86xs" "target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/OFFICIAL-GC-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
+  <a aria-label="Excel_Md is free to use" href="https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08" "target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/OFFICIAL-GC-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
 
    
  
