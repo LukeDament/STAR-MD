@@ -38,7 +38,7 @@ cmd({
             desc: "text to speech.",
             category: "downloader",
             filename: __filename,
-            use: '<Hii,this is izuku>',
+            use: '<Hey,this is STAR>',
         },
         async(Void, citel, text) => {
             if (!text) return citel.reply('Please give me a Sentence to change into audio.')
@@ -99,7 +99,7 @@ cmd({
             desc: "Downloads video from yt.",
             category: "downloader",
             filename: __filename,
-            use: '<808-juice wrld >',
+            use: '<Ed Sheeran>',
         },
         async(Void, citel, text) => {
             let yts = require("secktor-pack");
@@ -110,7 +110,7 @@ cmd({
                 return `${Math.floor(Math.random() * 10000)}${ext}`;
             };
                 let infoYt = await ytdl.getInfo(urlYt);
-                if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`😔 Video file too big!`);
+                if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`🤭 Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
                 citel.reply('*Downloading:* '+titleYt)
@@ -118,7 +118,7 @@ cmd({
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })
                     .pipe(fs.createWriteStream(`./${randomName}`));
-                await new Promise((resolve, reject) => {
+                await new Result((resolve, reject) => {
                     stream.on("error", reject);
                     stream.on("finish", resolve);
                 });
@@ -174,7 +174,7 @@ cmd({
 	let searc = await search(text);          //console.log(searc);
 	let data={};
 	if(searc.length){ data = await download(searc[0].id); }
-	else return citel.send("*APP not Found, Try Other Name*");
+	else return citel.send("*APP not Found STAR tried, Try Other Name*");
 	
 	
 	const apkSize = parseInt(data.size);
@@ -225,7 +225,7 @@ cmd({
             desc: "Sends info about the query(of youtube video/audio).",
             category: "downloader",
             filename: __filename,
-            use: '<faded-Alan walker.>',
+            use: '<Miss you.>',
         },
         async(Void, citel, text) => {
             if (!text) return citel.reply(`Use ${command} Back in Black`);
@@ -245,6 +245,7 @@ cmd({
 │⿻ *Viewers:* ${anu.views}
 │⿻ *Uploaded:* ${anu.ago}
 │⿻ *Author:* ${anu.author.name}
+│⿻ *Creator:Excel AMADI
 ╚═•∞•═════════╝
 ⦿ *Url* : ${anu.url}
 `,
@@ -299,7 +300,7 @@ cmd({
                     headerType: 4,
                     contextInfo: {
                         externalAdReply: {
-                            title: `Here you go✨`,
+                            title: `Here you go☢️`,
                             body: `${Config.ownername}`,
                             thumbnail: log0,
                             mediaType: 2,
