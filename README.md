@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://chat.whatsapp.com/ERYl3BYeDgj0xlZUssQI9p">
-    <img alt="STAR-MD" height="300" src=https://i.imgur.com/hTKgJeY.jpg">
+    <img alt="STAR-MD" height="300" src=https://i.imgur.com/eKdk4Sg.jpg">
   </a>
 
 </p>
