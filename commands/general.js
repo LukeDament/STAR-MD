@@ -120,8 +120,8 @@ cmd({
 │*⭐ Total Stars:* ${data.stargazers_count} stars
 │*🍴 Forks:* ${data.forks_count} forks
 │*📡 Repo:* https://github.com/Xcelsama/STAR-MD
-│*👑Group:* 
-│*🧑‍💻Deploy IZUKU MD*:https://github.com/excelottah6/IZUKU-MD
+│*⚙️Group:* https://chat.whatsapp.com/Lg0lY4M1k8oDMYzylg86xs
+│*🖥Deploy STAR-MD*:https://github.com/Xcelsama/STAR-MD
 ╰──────────────────────✬      * ˚  ✶`
 buttonMessaged = {
             image: { url: await botpic() },
@@ -130,7 +130,7 @@ buttonMessaged = {
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
+                    title: "STAR-MD Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -159,11 +159,12 @@ cmd({
         latensie = speed() - timestampe;
         let ter = `
 🔰 *${tlang().title}* 🔰
-*🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
+*📁Description:* A WhatsApp bot with cool features, built by Excel to make whatsapp fun.
 *⚡Speed:* ${latensie.toFixed(4)} ms
-*🚦Uptime:* ${runtime(process.uptime())}
-*🕸Version:* 0.0.7
+*⏱️Uptime:* ${runtime(process.uptime())}
+*📡Version:* 0.0.7
 *👤Owner:*  ${Config.ownername}
+*Creator:*Excel:-2347045035241
 *Powered by ${tlang().title}*
 `;
         let buttonMessaged = {
@@ -201,7 +202,7 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*All available themes in Secktor*"
+let str="*All available themes in STAR*"
 str+=`1. SECKTOR\n2. ADAM\n3. AYANOKOJI\n4. EDITH\n5. FRIDAY\n6. GENOS\n7. GIDEON\n8. GOKU\n9. LUFFY\n10. NARUTO\n11. NEZUKO\n12. PARKER\n13. ZEROTWO\n14. Eren Jeager(Coming Soon)\n\n these are the themes of Secktor Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
 return citel.reply(str)
     
