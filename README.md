@@ -22,7 +22,7 @@
  
 <p align="center">
 <a href='https://chat.whatsapp.com/EjCevQuz0IBIlfUUYLPEB4' 
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/ERYl3BYeDgj0xlZUssQI9p" target="_blank">
+  <a aria-label="Join our chats" href="https://chat.whatsapp.com/LrNEhg5ggcp11k091pNX7r" target="_blank">
 
    <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
