@@ -1,7 +1,6 @@
 
 
-# Remove the existing git clone command
-# RUN git clone https://github.com/SamPandey001/Secktor-Md /root/SamPandey001
+RUN git clone https://github.com/SamPandey001/Secktor-Md /root/SamPandey001
 
 # Add the new git clone command for the Xcelsama repository
 RUN git clone https://github.com/Xcelsama/STAR-MD /root/STAR-MD
