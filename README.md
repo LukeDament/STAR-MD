@@ -106,8 +106,6 @@ If You don't have a account in Heroku. Create a account.
 <a href='https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
 *******************************************
 
-<h1 align="center"> ⭐STAR-MD ⭐
-</p>
 
 <img src="https://i.imgur.com/FX2S9eI.jpg" alt="Image"> 
 Excel ©2024
