@@ -114,7 +114,7 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
+        let { data } = await axios.get('https://api.github.com/repos/https://github.com/Xcelsama/STAR-MD')
         let cap = `Hey ${citel.pushName}\n
 ╭┈─────────────────────    .· * • ˚
 │*⭐ Total Stars:* ${data.stargazers_count} stars
