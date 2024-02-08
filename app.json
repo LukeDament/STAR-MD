@@ -13,8 +13,7 @@
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
      "required", :false, 
-     " value":"Hey hey! 🌟 Guess who's here to help you? 🎉 Yep, it's your trusty bot pal!STAR-MD 🤖💬
-<prefix>menu to get started"
+     " value":"Hey hey! 🌟 Guess who's here to help you? 🎉 Yep, it's your trusty bot pal!STAR-MD 🤖💬<prefix>menu to get started"
     },
     "AUTO_STATUS_SAVER": {
       "description": "Automatically saves status of every person and sends in log number.",
