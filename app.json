@@ -12,7 +12,7 @@
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
-     "required",:  false
+     "required", false
      " value":"Hey hey! 🌟 Guess who's here to chat? 🎉 Yep, it's your trusty bot pal! 🤖💬 I'm all about diving into interesting topics, 💡 sharing cool stuff, 🚀 and just having a blast together! 💥 So, whether you need a laugh, 😂 a fact check, 📚 or just someone to talk to, 🗣️ I've got your back! Let's make this chat a memorable one! 😄🎉 What's on your mind today? 🤔 Let's get into it! 💬🚀✨<prefix>menu to get started"
     },
     "AUTO_STATUS_SAVER": {
