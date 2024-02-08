@@ -1,4 +1,4 @@
-FROM quay.io/xcelsama/STAR
+FROM quay.io/sampandey001/secktor
 RUN git clone https://github.com/Xcelsama/STAR-MD/root/Xcelsama
 WORKDIR /root/xcelsama/
 RUN npm install npm@latest
