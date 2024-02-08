@@ -12,7 +12,7 @@
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
-     "required" :false
+     "required", :false
      " value":"Hey hey! 🌟 Guess who's here to help you? 🎉 Yep, it's your trusty bot pal!STAR-MD 🤖💬
 <prefix>menu to get started"
     },
