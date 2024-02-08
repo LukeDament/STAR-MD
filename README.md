@@ -111,5 +111,7 @@ If You don't have a account in Heroku. Create a account.
 
 <img src="https://i.imgur.com/FX2S9eI.jpg" alt="Image"> 
 Excel ©2024
+Owner
+[![EXCEL](https://i.imgur.com/4Z8BDHx.png)](https://wa.me/2347045035241)
 
 
