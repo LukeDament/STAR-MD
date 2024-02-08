@@ -113,6 +113,6 @@ Excel ©2024
 <h1 align="center"> ⭐STAR-MD ⭐
 </p>
 
-imgh sec= (https://i.imgur.com/4Z8BDHx.png)](https://wa.me/2347045035241)
+img src="(https://i.imgur.com/4Z8BDHx.png">(https://wa.me/2347045035241)
 
 
