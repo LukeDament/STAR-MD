@@ -28,7 +28,7 @@
       },  
      "THUMB_IMAGE": {  
       "description": "THUMBNAIL for bot.",  
-       "value": "https://i.imgur.com/oNckzkC.jpg"  
+       "value": "https://i.imgur.com/D0ZPh8f.jpg"  
       },  
       "ANTI_BAD_WORD": {  
       "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",  
@@ -47,7 +47,7 @@
     "LEVEL_UP_MESSAGE": {  
       "description": "Fill the value true if you want bot send Level up message in chat.",  
        "required" :false,  
-       "value": "true"  
+       "value": "false"  
       },  
         "READ_MESSAGE": {  
       "description": "Fill the value true if you want bot to read all messages.",  
@@ -60,14 +60,14 @@
       },  
         "PREFIX": {  
     "description": "Enter your desired prefix for bot.",  
-        "value": "."  
+        "value": "*"  
     },  
     "OWNER_NUMBER": {  
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",  
          "value": "2347045035241"  
     },  
      "SESSION_ID": {  
-      "description": "Please put your SESSION_ID here,if you don't have visit https://secktorbot.herokuapp.com/session "  
+      "description": "Please put your SESSION_ID here "  
     },  
       "OPENAI_API_KEY": {  
       "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",  
@@ -80,7 +80,7 @@
     },  
       "THEME": {  
       "description": "Put the theme name you want to use. Avilable themes are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",  
-       "value": "EXCEL"  
+       "value": "GOKU"  
     },  
       "WORKTYPE": {  
     "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",  
@@ -102,10 +102,10 @@
        "required": false   
     }  
   },  
-  "formation": { 
-       "web": { 
-           "quantity": 1, 
-           "size": "standard-2x" 
-       } 
-   } 
- }
+  "formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "basic"
+		}
+	}
+}
