@@ -19,7 +19,7 @@
      alias :['gpt'], 
      desc: "chat with an AI(GPT)", 
      category: "AI", 
-     use: '<Hii,Secktor>', 
+     use: '<Hii,i'm STAR>', 
      filename: __filename, 
  }, 
  async(Void, citel,text) => { 
@@ -121,7 +121,7 @@
  │*🍴 Forks:* ${data.forks_count} forks 
  │*📡 Repo:* https://github.com/Xcelsama/STAR-MD 
  │*⚙️Group:* https://chat.whatsapp.com/Lg0lY4M1k8oDMYzylg86xs 
- │*🖥Deploy STAR-MD*:https://github.com/Xcelsama/STAR-MD 
+ │*🖥Deploy STAR-MD*:https://github.com/Xcelsama/STAR-MD
  ╰──────────────────────✬      * ˚  ✶` 
  buttonMessaged = { 
              image: { url: await botpic() }, 
