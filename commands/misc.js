@@ -1,4 +1,8 @@
 /**
+█▀ ▀█▀ ▄▀█ █▀█
+▄█ ░█░ █▀█ █▀▄                 
+█▀▄▀█ █▀▄
+█░▀░█ █▄▀                                
  Copyright (C) 2022.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
@@ -28,7 +32,7 @@ async(Void, citel, text,{ isCreator }) => {
                 return citel.reply('Welcome added added for this group.')
             } else {
                 await await sck.updateOne({ id: citel.chat }, { welcome:text ,events:'true'})
-                return citel.reply('Welcome updated successfully.')
+                return citel.reply('Welcome msg has been updated successfully.')
                 
             }      
 }
@@ -47,7 +51,7 @@ async(Void, citel, text,{ isCreator }) => {
                 return citel.reply('Goodbye added for this group.');
             } else {
                 await await sck.updateOne({ id: citel.chat }, { goodbye:text,events:'true' })
-                return citel.reply('Goodbye updated successfully.');     
+                return citel.reply('Goodbye msg has been updated successfully.');     
             }      
 }
 )
@@ -59,8 +63,8 @@ async(Void, citel, text,{ isCreator }) => {
              filename: __filename,
          },
          async(Void, citel, text) => {
-let a = await getBuffer(`https://citel-x.herokuapp.com/attp/${text}`)
- return citel.reply(a,{packname:'Secktor',author:'ATTP'},"sticker") 
+let a = await getBuffer(`https://vihangayt.me/maker/text2gif?q=${text}`)
+ return citel.reply(a,{packname:'STAR',author:'ATTP'},"sticker") 
          }
      )
  cmd({
@@ -70,8 +74,8 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/attp/${text}`)
              filename: __filename,
          },
          async(Void, citel, text) => {
-let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
- return citel.reply(a,{packname:'Secktor',author:'TTP'},"sticker") 
+let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
+ return citel.reply(a,{packname:'IZUKU',author:'TTP'},"sticker") 
          }
      )
      //---------------------------------------------------------------------------
@@ -123,17 +127,17 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
              filename: __filename,
          },
          async(Void, citel, text) => {
-             if (!citel.quoted) return citel.reply(`*Mention any Image or video Sir.*`);
+             if (!citel.quoted) return citel.reply(`*Mention the Image or video Sir.*`);
              let mime = citel.quoted.mtype
              var pack;
              var author;
              if (text) {
                  anu = text.split("|");
-                 pack = anu[0] !== "" ? anu[0] : citel.pushName + '♥️';
+                 pack = anu[0] !== "" ? anu[0] : citel.pushName + '✨';
                  author = anu[1] !== "" ? anu[1] : Config.author;
              } else {
                  pack = citel.pushName;
-                 author = "♥️";
+                 author = "✨";
              }
                  let media = await citel.quoted.download();
                  citel.reply("*Processing Your request*");
@@ -202,7 +206,7 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
      //---------------------------------------------------------------------------
  cmd({
              pattern: "npm",
-             desc: "download mp4 from url.",
+             desc: "search  npm packages from their name .",
              category: "search",
              use: '<package name>',
              filename: __filename,
@@ -302,7 +306,7 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
                          await new chatbot({ id: 'chatbot', worktype: "true" }).save()
                          return citel.reply('Chatbot activated successfully.')
                      } else {
-                         if (chatbott.worktype == "true") return citel.reply("Chatbot was already enabled.")
+                         if (chatbott.worktype == "true") return citel.reply("Chatbot has already been enabled.")
                          await chatbot.updateOne({ id: 'chatbot' }, { worktype: "true" })
                          citel.reply('Enabled chatbot successfully.')
                          return
@@ -316,7 +320,7 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
                          await new chatbot({ id: 'chatbot', worktype: "false" }).save()
                          return citel.reply('Chatbot deactivated successfully.')
                      } else {
-                         if (chatbott.worktype == "false") return citel.reply("Chatbot was already disabled.")
+                         if (chatbott.worktype == "false") return citel.reply("Chatbot has  already been disabled.")
                          await chatbot.updateOne({ id: 'chatbot' }, { worktype: "false" })
                          citel.reply('Disabled chatbot successfully.')
                          return
@@ -341,7 +345,7 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
                              },
                          ];
                          let chatbott= await chatbot.findOne({ id: 'chatbot' })
-                         await Void.sendButtonText(citel.chat, buttons, `Chatbot Status: ${chatbott.worktype} `, 'Secktor-Md', citel);
+                         await Void.sendButtonText(citel.chat, buttons, `Chatbot Status: ${chatbott.worktype} `, 'Izuku-Md', citel);
                         citel.reply(`Chatbot Status: ${chatbott.worktype} \n*Use:* ${prefix}chatbot on\n${prefix}chatbot off`)
                         }
              }
@@ -446,7 +450,33 @@ let buttons = [{
 }
 }
 })   
-         
+//-------------------------------------------------111
+cmd({
+  pattern: 'fb',
+  alias:'facebook',
+  fromMe: false,
+  catergory:'downloader',
+  react:'🔥',
+  desc: 'Download fb video without watermark',
+},
+async (Void,citel, text,) => {
+  let url = text.split(' ')[0];
+
+  if (!text) {
+    return citel.reply('Please provide a fb video URL.');
+  }
+
+  try {
+    let {data}= await axios.get(`https://api-smd.vercel.app/api/fb?url=${encodeURIComponent(url)}`);
+
+   if(! data || !data.result ) return citel.reply("no results found")
+
+    await 
+Void.sendMessage(citel.chat, {video : { url :data.result.urls[1].url } , },)
+  } catch (error) {
+    citel.reply(`Error: ${error.message || error}`);
+  }
+});
      //---------------------------------------------------------------------------
  cmd({
              pattern: "antilink",
@@ -480,6 +510,7 @@ let buttons = [{
              await Void.sendButtonText(citel.chat, buttons, `Activate antilink:Deletes Link + kick`, Void.user.name, citel);
          }
      )
+//-----------------------------------------------------
      cmd({
         pattern: 'ss',
         alias :['webss' , 'fullss'],
@@ -492,13 +523,50 @@ let buttons = [{
 let limit = 5;
 try {
 if (!text) return citel.reply("```Uhh Please, Give me Url!```");
-let urll = `https://s.vercel.app/api?url=${text.match(/\bhttps?:\/\/\S+/gi)[0]}&width=1280&height=720`
+let urll = `https://vihangayt.me/tools/ssweb?url=${text.match(/\bhttps?:\/\/\S+/gi)[0]}&width=1280&height=720`
 let media  = await getBuffer(urll)
 return await Void.sendMessage(citel.chat ,{image : media } , {quoted:citel} )
 }
 catch (err) { return citel.reply("```Error While Fetching Snapshot```")}
     }
 )
+cmd({
+  pattern: 'calc',
+  desc: 'A simple calculator command for basic arithmetic operations.',
+  catergory:'watsusi',
+}, (Void, citel, text) => {
+  const parts = text.split(' ');
+  if (parts.length !== 3) {
+    return citel.reply('Usage: !calc <num1> <operator> <num2>');
+  }
+  const num1 = parseFloat(parts[0]);
+  const operator = parts[1];
+  const num2 = parseFloat(parts[2]);
+  if (isNaN(num1) || isNaN(num2)) {
+    return citel.reply('Please provide valid numerical values.');
+  }
+
+  let result;
+  switch (operator) {
+    case '+':
+      result = num1 + num2;
+      break;
+    case '-':
+      result = num1 - num2;
+      break;
+    case '*':
+      result = num1 * num2;
+      break;
+    case '/':
+      result = num1 / num2;
+      break;
+    default:
+      return citel.reply('Invalid operator. Supported operators are +, -, *, and /.');
+  }
+
+  citel.reply(`Result: ${result}`);
+});
+
 
 
      //---------------------------------------------------------------------------
