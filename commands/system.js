@@ -185,7 +185,7 @@ cmd({
     if (!isCreator) return citel.reply(tlang().owner);
     try {
         let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
-        if (!users) return citel.reply(`🥷 Please mention the user ${tlang().greet}.`);
+        if (!users) return citel.reply(`🔌 Please mention the user ${tlang().greet}.`);
         let pushnamer = Void.getName(users);
         sck1.findOne({ id: users }).then(async (usr) => {
             if (!usr) {
