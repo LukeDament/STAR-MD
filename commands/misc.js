@@ -456,7 +456,7 @@ cmd({
   alias:'facebook',
   fromMe: false,
   catergory:'downloader',
-  react:'🔥',
+  react:'🔍',
   desc: 'Download fb video without watermark',
 },
 async (Void,citel, text,) => {
