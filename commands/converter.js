@@ -173,7 +173,7 @@ cmd({
         async(Void, citel, text) => {
             if (isNaN(text.split(" ")[0]) || !text) {
                 let text = tiny(
-                    "Fancy text generator\n\nExample: .fancy 46 Izuku\n\n"
+                    "Fancy text generator\n\nExample: .fancy 46 STAR\n\n"
                 );
                 listall("STAR-BOT").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
